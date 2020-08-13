@@ -16,7 +16,7 @@ unlockprofile () {
 		profile_path="$FIREFOXPATH$profile_path"
 	fi
 
-  rm ${profile_path}/.parentlock
+  	rm ${profile_path}/.parentlock
 
 	unset profile_id
 
